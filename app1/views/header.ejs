@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>头部</title>
+    <link rel='stylesheet' href='/css/style.css' />
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/iconfont.css">
+  </head>
+  <body>
+        <header>
+          <div class="box clearfix">
+          <div class="wrap clearfix">
+            <div class="logo l">
+              <a href="">
+                <img src="img/logo.jpg" alt="">
+              </a>
+            </div>
+              <div class="header-left l">
+                <ul>
+                  <li>
+                    <a href="/">首页</a>
+                  </li>
+                  <li>
+                    <a href="">产品中心</a>
+                  </li>
+                  <li>
+                    <a href="">套餐组合</a>
+                  </li>
+                  <li>
+                    <a href="">会员中心</a>
+                  </li>
+                  <li>
+                    <a href="">帮助中心</a>
+                  </li>
+                  <li>
+                    <a href="">关于我们</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="header-right r">
+                <ul>
+                  <li class="mobile">
+                    <span>移动端</span>
+                    <div class="b-bottom">
+                      <img src="img/mobile.png" alt="">
+                    </div>
+                  </li>
+                  <li class="my_2">
+                    我的<i class="iconfont icon-xiajiantou rotate"></i>
+                    <div class="b-bottom">
+                      <div>帮助中心</div>
+                      <div>我的订单</div>
+                      <div>我的收藏</div>
+                      <div>会员中心</div>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="/login">
+                      登录
+                    </a>
+                    <span>/</span>
+                    <a href="">注册</a>
+                    </li>
+                  <li>
+                    <span>
+                      <i class="iconfont icon-gouwucheman shopcarIcon">
+                        <b>0</b>
+                      </i>  
+                      
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              
+        </div>
+      </div>
+        </header>
+        
+        <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+          $(function(){
+            $(".mobile,.my_2").hover(function() {
+              $(this).find(".b-bottom").show()
+            },function() {
+              $(this).find(".b-bottom").hide()
+            })
+          })
+        </script>
+
+        
+  </body>
+</html>
